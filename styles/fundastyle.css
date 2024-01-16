@@ -20,18 +20,15 @@ nav{
 
 /* FOTO SLIDER GEDEELTE */
 
-.fotobeginner{
 
+ *, *::before, *::after {
+    box-sizing: border-box;
 
-
-}
 body{
     margin: 0;
 
 }
 
- *, *::before, *::after {
-    box-sizing: border-box;
     
 .swipere{
     width: 100vw; 
@@ -99,7 +96,13 @@ body{
 /* EINDE FOTO SLIDER */
 
 .wireflowgedeelte{
+ background-color: white;
 
 
-
+}
+.volledig{
+    background-color: white;
+    border-color: white;
+    color: blue;
+    box-shadow: white;
 }
