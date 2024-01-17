@@ -1,4 +1,12 @@
+:root{
+    --primaire-color: #F7A100;
+    --secundaire-color: #0071B3;
+    --primaire-lettertype: Proxima Nova;
 
+}
+*{
+    font-style: var(--primaire-lettertype);   
+}
 nav{
     position: static;
     display: flex;
@@ -26,6 +34,8 @@ nav{
 
 body{
     margin: 0;
+  
+    
 
 }
 
@@ -112,3 +122,4 @@ body{
 .hele{
     visibility: 0;
 }
+

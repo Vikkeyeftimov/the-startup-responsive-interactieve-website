@@ -21,7 +21,7 @@ let button = document.querySelector(".volledig")
 let begin = document.querySelector("start")
 let eind = document.querySelector("hele")
 
-button,addEventListener('click', veranderen)
-function veranderen(){
-    begin=
+button,addEventListener('click', ad)
+function change(){
+    begin
 }
