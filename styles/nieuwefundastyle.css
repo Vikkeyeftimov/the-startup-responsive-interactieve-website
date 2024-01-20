@@ -33,9 +33,10 @@ nav{
 nav {
     display: flex;
     justify-content: space-between;
-    right: 0em;
+    width: 414px;
     height: 60px;
     border: 0px;
+    top: 0px;
     
 }
 
@@ -66,7 +67,7 @@ nav {
 /* -------------------------------------------- */
 
 .modern-home {
-    width: 420px;
+    width: 414px;
     height: 300px;
     right: 0px;
 }
@@ -83,3 +84,17 @@ nav {
 }
 
 /* EIND HEADER */
+
+/* PRICE BEGIN */
+
+/* PRICE END */
+
+/* DISCRIPTION BEGIN */
+
+.vergroten{
+    opacity: 0;
+}
+
+.vergroten yay {
+    opacity: 1;
+}
