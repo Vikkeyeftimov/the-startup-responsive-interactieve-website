@@ -29,7 +29,6 @@ nav{
 
 }
 
-/* -------------------------------------------- */
 
 nav {
     display: flex;
@@ -49,6 +48,7 @@ nav {
     height: 100% ;
     background-color: var(--primaire-color);
     border-color: var(--primaire-color);
+    border: 0px;
 }
 
 .button-house {
@@ -59,13 +59,27 @@ nav {
     flex-direction: column;
     justify-content: center;
     background-color: var(--primaire-color);
+    border: 0px;
 
 }
+
+/* -------------------------------------------- */
 
 .modern-home {
     width: 420px;
     height: 300px;
+    right: 0px;
 }
 
+.plattegrond-button{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    flex-direction: column;
+}
+
+.startscherm{
+    border-bottom: var(--primaire-color);
+}
 
 /* EIND HEADER */
