@@ -42,8 +42,7 @@ nav {
     width: 414px;
     height: 60px;
     border: 0px;
-    top: 0px;
-    
+    top: 0px;    
 }
 
 .navbar-left {
@@ -56,6 +55,12 @@ nav {
     background-color: var(--primaire-color);
     border-color: var(--primaire-color);
     border: 0px;
+    color: white;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 0;
 }
 
 .button-house {
@@ -67,7 +72,7 @@ nav {
     justify-content: center;
     background-color: var(--primaire-color);
     border: 0px;
-
+    color: white;
 }
 
 /* -------------------------------------------- */
@@ -76,6 +81,37 @@ nav {
     max-width: 1200px;
     width: 100%;
 }
+
+.slider-wrapper .slide-button {
+    position: relative;
+}
+
+.slider-wrapper .slide-button {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: black;
+    cursor: pointer;
+    border-radius: 50%;
+    top: 25%; 
+   transform: translateY(-50%);
+}
+
+.slide-wrapper .slide-button:hover {
+    background:  #444;
+}
+
+.slider-wrapper .slide-button#prev-slide {
+    left: -1px;
+    /* display: none; */
+} 
+
+.slider-wrapper .slide-button#next-slide {
+    right: -1px;
+} 
 
 .slider-wrapper .image-list {
     display: grid;
@@ -154,10 +190,11 @@ nav {
     position: absolute;
     right: 0px;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .startscherm{
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 /* EIND HEADER */
@@ -172,6 +209,6 @@ nav {
     opacity: 0;
 }
 
-.vergroten yay {
+.vergroten tekst-vergroter {
     opacity: 1;
 }
