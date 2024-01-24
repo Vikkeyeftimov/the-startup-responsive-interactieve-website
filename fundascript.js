@@ -38,3 +38,23 @@ plusbutton.addEventListener("click", function(){
     this.innerHTML = "- Inklappen"
     }
     })
+
+// PLUS BUTTON END
+
+// PLATTEGROND BEGIN
+
+var plattegrond = document.querySelector(".plattegrond-button")
+var classeerste = document.getElementById("oude")
+var classtweede = document.getElementById("nieuwe")
+
+plattegrond.addEventListener("click", function() {
+    var tempKlassen = classeerste.className
+    classeerste.classname = classtweede.className
+    classtweede.className= tempKlassen
+})
+
+
+
+
+
+
