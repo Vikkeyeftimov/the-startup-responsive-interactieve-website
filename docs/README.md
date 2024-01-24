@@ -8,8 +8,7 @@ Ik heb meerdere interactie toegevoegd die bij de orginele website er nog niet wa
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 ![image](https://github.com/Vikkeyeftimov/the-startup-responsive-interactieve-website/assets/144008940/c92472e0-7ade-4f82-a8db-73ca1e9432cb)
 
-https://github.com/Vikkeyeftimov/the-startup-responsive-interactieve-website
-
+https://vikkeyeftimov.github.io/the-startup-responsive-interactieve-website/
 ## Kenmerken
 Bij dit opdracht heb ik gebruik gemaakt van HTML, CSS en JAVASCRIPT. Bij html heb ik foto's van internet toegevoegd en tekst gekopieerd van originele Funda koop scherm. Bij CSS heb ik custom properties toegevoegd en mijn interacties goed genaakt. Bij JAVASCRIPT heb ik mijn transactie laten werken en ben ik zeker nog altijd mee bezig ok het te verbeteren. 
 
