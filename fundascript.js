@@ -33,20 +33,26 @@ plusbutton.addEventListener("click", function () {
     }
 });
 
-
 // PLUS BUTTON END
 
 // PLATTEGROND BEGIN
 
-var plattegrond = document.querySelector(".plattegrond-button")
-var classeerste = document.getElementById("oude")
-var classtweede = document.getElementById("nieuwe")
+    var oude1 = document.getElementById("oude")
+    var nieuwe2 = document.getElementById("nieuwe")
+    var plattegrondbt = document.querySelector(".plattegrond-button")
 
-plattegrond.addEventListener("click", function() {
-    var tempKlassen = classeerste.className
-    classeerste.classname = classtweede.className
-    classtweede.className= tempKlassen
-})
+    var isSwapped = false
+
+    plattegrondbt.addEventListener("click", function() {
+        var temp = oude1.innerHTML
+        oude1.innerHTML = nieuwe2.innerHTML
+        nieuwe2.innerHTML = temp
+
+        isSwapped = !isSwapped
+    })
+
+
+
 
 
 

@@ -2,6 +2,13 @@
     --primaire-color: #F7A100;
     --secundaire-color: #0071B3;
     --primaire-lettertype: Proxima Nova;
+    --navbarlettertype: 15px;
+}
+
+.maandlasten {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 *{
@@ -13,29 +20,16 @@
 
 /* BEGIN HEADER */
 
-nav{
-    display: flex;
-    background-color: var(--primaire-color);
-    left: 0em;
-    right: 0em;
-    
-}
-
-#knophuis{
-    width: 60px;
-    background-color: var(--primaire-color);
-    border-color: var(--primaire-color);
-    right: 0em;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
     width: 414px;
     height: 60px;
     border: 0px;
-    top: 0px; 
-    font-size: 1px;   
+    top: 0px;    
+    background-color: var(--primaire-color);
+    left: 0em;
+    right: 0em;
 }
 
 .navbar-left {
@@ -49,15 +43,24 @@ nav {
     border-color: var(--primaire-color);
     border: 0px;
     color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+    margin-left: 15px;
+    width: 50px;
 }
 
 .logo{
-    position: absolute;
+    position: relative;
+    width: 100px;
+    height: 75px;
 }
 
 .button-house {
     display: flex;
-    width: 125px;
+    width: 70px;
     height: 100%;
     align-items: center;
     flex-direction: column;
@@ -65,7 +68,31 @@ nav {
     background-color: var(--primaire-color);
     border: 0px;
     color: white;
+    text-decoration: none;
+    font-size: 12px;
 }
+
+.my-house{
+    display: flex;
+}
+
+.alog{
+    display: flex;
+    width: 50px;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--primaire-color);
+    border: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+
+
 
 /* -------------------------------------------- */
 
@@ -190,6 +217,7 @@ nav {
     justify-content: center;
     color: var(--secundaire-color);
     background-color: #fff;
+    align-items: center;
 }
 
 .startscherm{
