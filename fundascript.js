@@ -23,21 +23,16 @@ window.addEventListener("load", initSlider)
 var plusbutton = document.getElementById("plusbutton");
 var plustekst = document.getElementById("vergroten");
 
-plusbutton.addEventListener("click", function(){
-    if (plustekst.style.display === "none") {
+plusbutton.addEventListener("click", function () {
+    if (plustekst.style.display === "none" || plustekst.style.display === "") {
         plustekst.style.display = "block";
+        this.innerHTML = "- Inklappen";
     } else {
         plustekst.style.display = "none";
+        this.innerHTML = "+ Lees de volledige omschrijving";
     }
-    })
- 
- plusbutton.addEventListener("click", function(){   
-    if(this.innerHTML === "- Inklappen") {
-    this.innerHTML = "+ Lees de volledige omschrijving"
-    } else {
-    this.innerHTML = "- Inklappen"
-    }
-    })
+});
+
 
 // PLUS BUTTON END
 
