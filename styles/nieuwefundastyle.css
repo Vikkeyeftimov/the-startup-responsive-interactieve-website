@@ -11,7 +11,6 @@
     font-family: proxima nova, sans-serif;
 }
 
-
 /* BEGIN HEADER */
 
 nav{
@@ -28,7 +27,6 @@ nav{
     border-color: var(--primaire-color);
     right: 0em;
 }
-
 
 nav {
     display: flex;
@@ -201,6 +199,7 @@ nav {
 /* EIND HEADER */
 
 /* PRICE BEGIN */
+
 .prijs-section{
     margin-bottom: 50px;
     line-height: 40px;
@@ -229,7 +228,6 @@ nav {
         text-decoration: none;
     }
 }
-
 
 /* PRICE END */
 
