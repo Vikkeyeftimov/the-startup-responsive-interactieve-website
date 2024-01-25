@@ -49,7 +49,16 @@ plusbutton.addEventListener("click", function () {
         nieuwe2.innerHTML = temp
 
         isSwapped = !isSwapped
+
+        if(this.innerHTML === "Plattegrond") {
+            this.innerHTML = "Foto's"
+        }  else {
+            this.innerHTML = "Plattegrond" 
+        }
     })
+
+
+
 
 
 
